@@ -1,0 +1,79 @@
+[
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@example.com",
+    "phone": "+1-555-0123",
+    "addressLine1": "42 Ocean View",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "postalCode": "10001",
+    "preferences": [
+      "Late checkout",
+      "High floor"
+    ],
+    "tags": [
+      "VIP"
+    ],
+    "notes": "Prefers sparkling water in room",
+    "visitCount": 3,
+    "stayHistory": [],
+    "idDocuments": [
+      {
+        "type": "passport",
+        "number": "P123456789",
+        "capturedAt": "2026-01-01T12:04:35.213Z"
+      }
+    ],
+    "createdAt": "2026-01-01T12:04:35.213Z",
+    "updatedAt": "2026-01-01T12:04:35.213Z",
+    "id": "XWi0dkHDGmmlVMfvZj3V3"
+  },
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "firstName": "Emma",
+    "lastName": "Johnson",
+    "email": "emma.j@example.com",
+    "phone": "+44-20-5550-0124",
+    "city": "London",
+    "country": "UK",
+    "visitCount": 1,
+    "stayHistory": [],
+    "idDocuments": [
+      {
+        "type": "passport",
+        "number": "P987654321",
+        "capturedAt": "2026-01-01T12:04:35.213Z"
+      }
+    ],
+    "createdAt": "2026-01-01T12:04:35.213Z",
+    "updatedAt": "2026-01-01T12:04:35.213Z",
+    "id": "EZvcqtuanAgUtfVausV1q"
+  },
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "firstName": "Michael",
+    "lastName": "Chen",
+    "email": "mchen@example.com",
+    "phone": "+65-5550-0125",
+    "city": "Singapore",
+    "country": "Singapore",
+    "visitCount": 5,
+    "stayHistory": [],
+    "idDocuments": [
+      {
+        "type": "passport",
+        "number": "P456789123",
+        "capturedAt": "2026-01-01T12:04:35.213Z"
+      }
+    ],
+    "createdAt": "2026-01-01T12:04:35.213Z",
+    "updatedAt": "2026-01-01T12:04:35.213Z",
+    "id": "rji9v7jTDokf7Gs0a0S_J"
+  }
+]

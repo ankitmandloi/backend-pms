@@ -1,0 +1,60 @@
+import type { ReservationRecord, ReservationStatus, RatePlanCode, ReservationSource, ReservationBilling, RoomRecord } from "../types/domain.js";
+export declare const nightsBetween: (arrival: string, departure: string) => number;
+export declare const ensureRoomAvailable: (roomId: string, arrivalDate: string, departureDate: string, reservationIdToIgnore?: string) => Promise<void>;
+export declare const ensureRoomBelongsToHotel: (room: RoomRecord | undefined, hotelCode: string) => void;
+export type ReservationPayload = Omit<ReservationRecord, "billing"> & {
+    billing: ReservationBilling;
+};
+export type CreateReservationInput = {
+    hotelId: string;
+    hotelCode: string;
+    guestId: string;
+    roomId?: string;
+    roomType: string;
+    status?: ReservationStatus;
+    arrivalDate: string;
+    departureDate: string;
+    adults: number;
+    children: number;
+    nightlyRate: number;
+    ratePlan: RatePlanCode;
+    source: ReservationSource;
+    otaReference?: string;
+    isWalkIn?: boolean;
+    notes?: string;
+    currency?: string;
+};
+export type UpdateReservationInput = Partial<{
+    roomId?: string;
+    roomType: string;
+    status: ReservationStatus;
+    arrivalDate: string;
+    departureDate: string;
+    adults: number;
+    children: number;
+    nightlyRate: number;
+    ratePlan: RatePlanCode;
+    source: ReservationSource;
+    otaReference?: string;
+    isWalkIn: boolean;
+    notes?: string;
+    currency: string;
+}>;
+export declare const listReservations: (hotelCode?: string) => Promise<ReservationPayload[]>;
+export declare const getReservationById: (id: string) => Promise<ReservationPayload | undefined>;
+export declare const createReservation: (input: CreateReservationInput) => Promise<ReservationPayload>;
+export declare const updateReservation: (id: string, input: UpdateReservationInput) => Promise<ReservationPayload>;
+export declare const deleteReservation: (id: string) => Promise<void>;
+export type AvailabilityQuery = {
+    arrivalDate: string;
+    departureDate: string;
+    roomType?: string;
+};
+export type AvailabilityResponse = {
+    arrivalDate: string;
+    departureDate: string;
+    roomType?: string;
+    availableRooms: RoomRecord[];
+    totalAvailable: number;
+};
+export declare const getAvailability: (hotelCode: string, query: AvailabilityQuery) => Promise<AvailabilityResponse>;

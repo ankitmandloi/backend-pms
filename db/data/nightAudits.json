@@ -1,0 +1,72 @@
+[
+  {
+    "id": "O0E8Lpis-bjpWkkXddlCn",
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "businessDate": "2026-01-04",
+    "status": "FAILED",
+    "startedAt": "2026-01-04T14:49:37.113Z",
+    "startedBy": "FH1_RyhcDUKryGCEIXe4m",
+    "steps": [
+      {
+        "type": "VALIDATE_SHIFT_CLOSURE",
+        "status": "FAILED",
+        "startedAt": "2026-01-04T14:49:37.129Z",
+        "message": "1 open shifts detected",
+        "completedAt": "2026-01-04T14:49:37.147Z"
+      },
+      {
+        "type": "POST_ROOM_REVENUE",
+        "status": "COMPLETED",
+        "startedAt": "2026-01-04T14:49:37.161Z",
+        "message": "Posted revenue for 0 rooms, total: ₹0",
+        "completedAt": "2026-01-04T14:49:37.183Z"
+      },
+      {
+        "type": "PROCESS_NO_SHOWS",
+        "status": "COMPLETED",
+        "startedAt": "2026-01-04T14:49:37.196Z",
+        "message": "Processed 0 no-shows",
+        "completedAt": "2026-01-04T14:49:37.210Z"
+      },
+      {
+        "type": "UPDATE_ROOM_STATUS",
+        "status": "COMPLETED",
+        "startedAt": "2026-01-04T14:49:37.225Z",
+        "message": "Updated 1 room statuses",
+        "completedAt": "2026-01-04T14:49:37.253Z"
+      },
+      {
+        "type": "GENERATE_REPORTS",
+        "status": "COMPLETED",
+        "startedAt": "2026-01-04T14:49:37.265Z",
+        "message": "Generated 3 reports",
+        "completedAt": "2026-01-04T14:49:37.276Z"
+      },
+      {
+        "type": "ROLLOVER_DATE",
+        "status": "COMPLETED",
+        "startedAt": "2026-01-04T14:49:37.286Z",
+        "message": "Business date rolled over successfully",
+        "completedAt": "2026-01-04T14:49:37.296Z"
+      }
+    ],
+    "createdAt": "2026-01-04T14:49:37.113Z",
+    "updatedAt": "2026-01-04T14:49:37.306Z",
+    "completedAt": "2026-01-04T14:49:37.306Z",
+    "errors": [
+      "1 shift(s) still open"
+    ],
+    "summary": {
+      "totalRoomsOccupied": 0,
+      "totalRevenuePosted": 0,
+      "noShowsProcessed": 0,
+      "roomStatusUpdates": 1,
+      "reportsGenerated": [
+        "Daily Revenue Report",
+        "Room Occupancy Report",
+        "No-Show Report"
+      ]
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "name": "Deluxe Room",
+    "shortCode": "DLX",
+    "description": "khb;ib;ibljhb",
+    "baseRate": 5000,
+    "occupancy": 2,
+    "extraBedRate": 1000,
+    "amenities": [
+      "Wifi"
+    ],
+    "isActive": true,
+    "createdAt": "2026-01-02T15:10:04.644Z",
+    "updatedAt": "2026-01-02T15:10:04.644Z",
+    "id": "jsShVWQlJPEJUBfOucYsW"
+  },
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "name": "sdfafsdf",
+    "shortCode": "LB",
+    "description": "dfsdfsdf",
+    "baseRate": 8000,
+    "occupancy": 3,
+    "extraBedRate": 1000,
+    "amenities": [
+      "sdgsgsdf"
+    ],
+    "isActive": true,
+    "createdAt": "2026-01-02T15:10:39.836Z",
+    "updatedAt": "2026-01-02T15:10:39.836Z",
+    "id": "BWaIjD0fA1_sLZO0FKGaC"
+  }
+]

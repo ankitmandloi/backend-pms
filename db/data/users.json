@@ -1,0 +1,20 @@
+[
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "username": "admin",
+    "email": "admin@auroragrand.example",
+    "displayName": "Aurora Admin",
+    "roles": [
+      "SUPER_ADMIN",
+      "ADMIN",
+      "MANAGER",
+      "FRONT_DESK"
+    ],
+    "passwordHash": "$2a$10$hj2jkaZa3dg29zFKjzMCFernBN2ErpgfKjSo42j7S4bVOOKdkLI.a",
+    "status": "ACTIVE",
+    "createdAt": "2026-01-01T12:03:51.767Z",
+    "updatedAt": "2026-01-01T12:03:51.767Z",
+    "id": "FH1_RyhcDUKryGCEIXe4m"
+  }
+]

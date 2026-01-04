@@ -1,0 +1,18 @@
+[
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "name": "Aurora Grand Hotel",
+    "addressLine1": "12 Sunrise Boulevard",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "postalCode": "400001",
+    "phone": "+91-22-5550-0100",
+    "email": "frontdesk@auroragrand.example",
+    "timezone": "Asia/Kolkata",
+    "gstin": "27ABCDE1234F1Z5",
+    "updatedAt": "2026-01-01T12:03:51.850Z",
+    "id": "i49XBwYeXh8x9_s5EpF_P"
+  }
+]

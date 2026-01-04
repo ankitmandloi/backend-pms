@@ -1,0 +1,84 @@
+[
+  {
+    "id": "F-KytIiqgi-Az_k3XrZXY",
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "provider": "BOOKING_COM",
+    "status": "INACTIVE",
+    "credentials": {
+      "hotelId": "sers",
+      "apiKey": "sdfsdfsdf"
+    },
+    "mappings": [],
+    "syncSettings": {
+      "autoSyncRates": true,
+      "autoSyncInventory": true,
+      "autoImportReservations": true,
+      "syncIntervalMinutes": 60
+    },
+    "createdAt": "2026-01-04T12:28:27.132Z",
+    "updatedAt": "2026-01-04T12:28:27.132Z"
+  },
+  {
+    "id": "OFo_qVZCmGkNwFmT40s7-",
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "provider": "BOOKING_COM",
+    "status": "INACTIVE",
+    "credentials": {
+      "hotelId": "ASDFGFDSA",
+      "apiKey": "sdgfgdnfsadsfgnfd"
+    },
+    "mappings": [],
+    "syncSettings": {
+      "autoSyncRates": true,
+      "autoSyncInventory": true,
+      "autoImportReservations": true,
+      "syncIntervalMinutes": 60
+    },
+    "createdAt": "2026-01-04T12:33:31.426Z",
+    "updatedAt": "2026-01-04T12:33:31.426Z"
+  },
+  {
+    "id": "O5BiPwQD52NG2JXaQnoXu",
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "provider": "MAKEMYTRIP",
+    "status": "INACTIVE",
+    "credentials": {
+      "propertyId": "23424",
+      "username": "sgsgfe",
+      "password": "sewerwer"
+    },
+    "mappings": [],
+    "syncSettings": {
+      "autoSyncRates": true,
+      "autoSyncInventory": true,
+      "autoImportReservations": true,
+      "syncIntervalMinutes": 60
+    },
+    "createdAt": "2026-01-04T12:40:02.626Z",
+    "updatedAt": "2026-01-04T12:40:02.626Z"
+  },
+  {
+    "id": "pbHljmf-3olTTlO1KrO4B",
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "provider": "BOOKING_COM",
+    "status": "INACTIVE",
+    "credentials": {
+      "propertyId": "ASADXASD",
+      "hotelId": "ZCZSDCSZDFCSDZ",
+      "apiKey": "XVDSDFVZSDVXVCSX"
+    },
+    "mappings": [],
+    "syncSettings": {
+      "autoSyncRates": true,
+      "autoSyncInventory": true,
+      "autoImportReservations": true,
+      "syncIntervalMinutes": 60
+    },
+    "createdAt": "2026-01-04T12:40:31.863Z",
+    "updatedAt": "2026-01-04T12:40:31.863Z"
+  }
+]

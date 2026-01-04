@@ -1,0 +1,74 @@
+[
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "number": "101",
+    "name": "Deluxe King 101",
+    "type": "DLX",
+    "status": "OCCUPIED",
+    "rate": 7500,
+    "floor": 1,
+    "amenities": [
+      "WiFi",
+      "Smart TV",
+      "Mini Bar"
+    ],
+    "createdAt": "2026-01-01T12:03:51.874Z",
+    "updatedAt": "2026-01-01T12:03:51.874Z",
+    "id": "JqS3r6mmBy03QOkFWUW6u"
+  },
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "number": "102",
+    "name": "Standard Queen 102",
+    "type": "STD",
+    "status": "AVAILABLE",
+    "rate": 5400,
+    "floor": 1,
+    "amenities": [
+      "WiFi",
+      "TV"
+    ],
+    "createdAt": "2026-01-01T12:03:51.874Z",
+    "updatedAt": "2026-01-01T12:03:51.874Z",
+    "id": "zYg3DlNPqLlKrVn_24Z4d"
+  },
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "number": "201",
+    "name": "Deluxe King 201",
+    "type": "DLX",
+    "status": "DIRTY",
+    "rate": 7600,
+    "floor": 2,
+    "amenities": [
+      "WiFi",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "createdAt": "2026-01-01T12:03:51.874Z",
+    "updatedAt": "2026-01-01T12:03:51.874Z",
+    "id": "_EMgcxhFtGOfxwDL1bcKy"
+  },
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "number": "301",
+    "name": "Executive Suite 301",
+    "type": "SUT",
+    "status": "AVAILABLE",
+    "rate": 11200,
+    "floor": 3,
+    "amenities": [
+      "WiFi",
+      "Smart TV",
+      "Living Room",
+      "Kitchenette"
+    ],
+    "createdAt": "2026-01-01T12:03:51.874Z",
+    "updatedAt": "2026-01-01T12:03:51.874Z",
+    "id": "BZJm3f0b6gtHUriUWcCau"
+  }
+]

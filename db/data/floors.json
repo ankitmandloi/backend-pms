@@ -1,0 +1,32 @@
+[
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "number": 1,
+    "name": "1",
+    "sortOrder": 0,
+    "createdAt": "2026-01-02T15:39:21.042Z",
+    "updatedAt": "2026-01-02T15:39:21.042Z",
+    "id": "S91OiT-7VwCNwQZW1IBPC"
+  },
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "number": 2,
+    "name": "2",
+    "sortOrder": 1,
+    "createdAt": "2026-01-02T15:39:27.503Z",
+    "updatedAt": "2026-01-02T15:39:27.503Z",
+    "id": "r43CUBKy_TcYTBD0lzzH3"
+  },
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "number": 3,
+    "name": "3",
+    "sortOrder": 2,
+    "createdAt": "2026-01-02T15:39:32.983Z",
+    "updatedAt": "2026-01-02T15:39:32.983Z",
+    "id": "Li7Z6tsGK4TlgcMQiyRI0"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "guestId": "cIAzzrZMYwPwsOAJVnODH",
+    "roomType": "DLX",
+    "status": "CHECKED_IN",
+    "arrivalDate": "2026-01-02",
+    "departureDate": "2026-01-09",
+    "adults": 2,
+    "children": 0,
+    "nightlyRate": 5000,
+    "ratePlan": "BAR",
+    "source": "WALK_IN",
+    "isWalkIn": true,
+    "notes": "nmkjh",
+    "billing": {
+      "currency": "INR",
+      "totalAmount": 35000,
+      "balanceDue": 35000,
+      "charges": [
+        {
+          "description": "7 night(s) @ 5000.00 INR",
+          "amount": 35000
+        }
+      ]
+    },
+    "checkInAt": "2026-01-02T15:41:46.047Z",
+    "createdAt": "2026-01-02T15:41:46.047Z",
+    "updatedAt": "2026-01-02T15:41:46.047Z",
+    "id": "9ApgpyXDMTlgHtYkN5yDL"
+  },
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "guestId": "cIAzzrZMYwPwsOAJVnODH",
+    "roomType": "DLX",
+    "roomId": "kDChglW7zR_GIS0wYfZtI",
+    "status": "CHECKED_OUT",
+    "arrivalDate": "2026-01-02",
+    "departureDate": "2026-01-07",
+    "adults": 2,
+    "children": 0,
+    "nightlyRate": 5000,
+    "ratePlan": "BAR",
+    "source": "DIRECT",
+    "isWalkIn": false,
+    "notes": "",
+    "billing": {
+      "currency": "INR",
+      "totalAmount": 25000,
+      "balanceDue": 25000,
+      "charges": [
+        {
+          "description": "5 night(s) @ 5000.00 INR",
+          "amount": 25000
+        }
+      ]
+    },
+    "checkInAt": "2026-01-02T15:46:18.778Z",
+    "createdAt": "2026-01-02T15:43:02.308Z",
+    "updatedAt": "2026-01-03T05:20:07.172Z",
+    "id": "cZXEGpAkwRp0KOFOS90gy",
+    "checkOutAt": "2026-01-03T05:20:07.172Z"
+  },
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "guestId": "AYjzDjdLrw7uUo-7LMtMf",
+    "roomType": "DLX",
+    "status": "CHECKED_OUT",
+    "arrivalDate": "2026-01-02",
+    "departureDate": "2026-01-03",
+    "adults": 2,
+    "children": 0,
+    "nightlyRate": 5000,
+    "ratePlan": "BAR",
+    "source": "WALK_IN",
+    "isWalkIn": true,
+    "notes": "",
+    "billing": {
+      "currency": "INR",
+      "totalAmount": 5000,
+      "balanceDue": 5000,
+      "charges": [
+        {
+          "description": "1 night(s) @ 5000.00 INR",
+          "amount": 5000
+        }
+      ]
+    },
+    "checkInAt": "2026-01-02T15:43:55.948Z",
+    "createdAt": "2026-01-02T15:43:55.948Z",
+    "updatedAt": "2026-01-03T05:19:35.440Z",
+    "id": "XMFWDLD_ruLSLlTL42yGh",
+    "checkOutAt": "2026-01-03T05:19:35.440Z"
+  }
+]

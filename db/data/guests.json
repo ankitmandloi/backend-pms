@@ -1,0 +1,49 @@
+[
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "firstName": "ikhu",
+    "lastName": "iuh",
+    "email": "iuh@gmail.com",
+    "phone": "7987011421",
+    "addressLine1": "iuh",
+    "city": "h",
+    "state": "iu",
+    "country": "India",
+    "postalCode": "234543234",
+    "preferences": [],
+    "tags": [],
+    "visitCount": 2,
+    "stayHistory": [
+      "9ApgpyXDMTlgHtYkN5yDL",
+      "cZXEGpAkwRp0KOFOS90gy"
+    ],
+    "idDocuments": [],
+    "createdAt": "2026-01-02T15:38:23.876Z",
+    "updatedAt": "2026-01-02T15:43:02.322Z",
+    "id": "cIAzzrZMYwPwsOAJVnODH"
+  },
+  {
+    "hotelId": "hotel-aurora",
+    "hotelCode": "HOTEL001",
+    "firstName": "yguy",
+    "lastName": "uhiih",
+    "email": "sdvdsf@sdsdf.com",
+    "phone": "423534535",
+    "addressLine1": "sdfdsf",
+    "city": "bbb",
+    "state": "bbbb",
+    "country": "India",
+    "postalCode": "322121",
+    "preferences": [],
+    "tags": [],
+    "visitCount": 1,
+    "stayHistory": [
+      "XMFWDLD_ruLSLlTL42yGh"
+    ],
+    "idDocuments": [],
+    "createdAt": "2026-01-02T15:41:27.653Z",
+    "updatedAt": "2026-01-02T15:43:55.962Z",
+    "id": "AYjzDjdLrw7uUo-7LMtMf"
+  }
+]
